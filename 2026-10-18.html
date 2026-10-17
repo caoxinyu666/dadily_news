@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>新闻早报 · 2026年10月18日 · 重阳节</title>
+</head>
+<body style="margin:0;padding:0;">
+
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+    background: #f7f4ef;
+    color: #2c3e50 !important;
+    max-width: 480px;
+    margin: 0 auto;
+    padding: 16px 14px 32px;
+    line-height: 1.75;
+  }
+  p, span, div, li, b { color: inherit; }
+  .header {
+    background: linear-gradient(135deg, #c0392b, #96281b);
+    border-radius: 12px 12px 0 0;
+    padding: 24px 20px 18px;
+    color: #ffffff !important;
+    text-align: center;
+  }
+  .header * { color: #ffffff !important; }
+  .header .paper { font-size: 12px; letter-spacing: 4px; opacity: .85; margin-bottom: 6px; }
+  .header h1 { font-size: 26px; letter-spacing: 6px; font-weight: 700; }
+  .header .date { margin-top: 10px; font-size: 13px; opacity: .9; }
+  .header .date span { margin: 0 6px; color: #ffffff !important; }
+  .solar-term {
+    background: rgba(255,255,255,.15);
+    display: inline-block;
+    padding: 2px 14px;
+    border-radius: 20px;
+    margin-top: 10px;
+    font-size: 12px;
+    color: #ffffff !important;
+  }
+  .weather {
+    background: linear-gradient(135deg, #4a90d9, #2c5f8a);
+    border-radius: 12px;
+    padding: 16px 18px;
+    color: #ffffff !important;
+    margin-top: 14px;
+    box-shadow: 0 2px 8px rgba(0,0,0,.06);
+  }
+  .weather * { color: #ffffff !important; }
+  .weather-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+    opacity: .95;
+  }
+  .weather-main {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin: 10px 0 12px;
+  }
+  .weather-icon { font-size: 40px; line-height: 1; }
+  .weather-temp { font-size: 32px; font-weight: 700; }
+  .weather-temp span { font-size: 15px; font-weight: 400; margin-left: 2px; }
+  .weather-desc { font-size: 15px; margin-top: 2px; }
+  .weather-grid {
+    display: flex;
+    background: rgba(255,255,255,.12);
+    border-radius: 8px;
+    padding: 8px 0;
+  }
+  .w-item { flex: 1; text-align: center; }
+  .w-item b { display: block; font-size: 15px; }
+  .w-item span { font-size: 11px; opacity: .8; }
+  .weather-tip {
+    margin-top: 10px;
+    font-size: 13px;
+    background: rgba(255,255,255,.12);
+    border-radius: 8px;
+    padding: 7px 10px;
+  }
+  .section {
+    background: #ffffff;
+    border-radius: 0 0 12px 12px;
+    padding: 18px 18px 8px;
+    margin-bottom: 14px;
+    box-shadow: 0 2px 8px rgba(0,0,0,.04);
+  }
+  .section:first-of-type { border-radius: 12px; margin-top: 14px; }
+  .section-title {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 17px;
+    font-weight: 700;
+    color: #c0392b !important;
+    padding-bottom: 10px;
+    border-bottom: 1px dashed #e8d5d0;
+    margin-bottom: 12px;
+  }
+  .section-title::before {
+    content: "";
+    width: 4px; height: 18px;
+    background: #c0392b;
+    border-radius: 2px;
+  }
+  .section-title .en { font-size: 11px; color: #999999 !important; font-weight: 400; margin-left: auto; letter-spacing: 1px; }
+  ol { list-style: none; counter-reset: item; }
+  ol li {
+    counter-increment: item;
+    display: flex;
+    gap: 10px;
+    padding: 7px 0;
+    font-size: 15px;
+    border-bottom: 1px solid #f4f0ea;
+    color: #2c3e50 !important;
+  }
+  ol li:last-child { border-bottom: none; }
+  ol li::before {
+    content: counter(item, decimal-leading-zero);
+    flex: none;
+    width: 24px; height: 24px;
+    background: #f7f4ef;
+    color: #c0392b !important;
+    border: 1px solid #e8d5d0;
+    border-radius: 50%;
+    font-size: 11px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4px;
+    font-weight: 600;
+  }
+  ol li span { color: #2c3e50 !important; }
+  ol li b { font-weight: 600; color: #1a1a1a !important; }
+  .quote {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 16px 18px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,.04);
+  }
+  .quote .tag { font-size: 12px; color: #e67e22 !important; letter-spacing: 3px; margin-bottom: 6px; }
+  .quote p { font-size: 15px; color: #2c3e50 !important; }
+  .footer {
+    text-align: center;
+    font-size: 11px;
+    color: #8a8a8a !important;
+    margin-top: 18px;
+  }
+</style>
+
+<div class="header">
+  <div class="paper">NEWS MORNING POST</div>
+  <h1>新闻早报</h1>
+  <div class="date">2026年10月18日<span>|</span>星期日<span>|</span>农历九月初九</div>
+  <div class="solar-term">寒露时节 · 九九重阳，登高敬老</div>
+</div>
+
+<div class="weather">
+  <div class="weather-head"><span>今日天气</span><span>重庆 · 两江新区</span></div>
+  <div class="weather-main">
+    <div class="weather-icon">🌧️</div>
+    <div>
+      <div class="weather-temp">18~22<span>°C</span></div>
+      <div class="weather-desc">小雨 · 全天有细雨飘落</div>
+    </div>
+  </div>
+  <div class="weather-grid">
+    <div class="w-item"><b>92%</b><span>降水概率</span></div>
+    <div class="w-item"><b>中等</b><span>紫外线</span></div>
+    <div class="w-item"><b>18~22</b><span>气温°C</span></div>
+    <div class="w-item"><b>带伞</b><span>出行提示</span></div>
+  </div>
+  <div class="weather-tip">👔 气温18~22°C凉意明显，长袖打底加一件薄外套最合适；降水概率高达<b>92%</b>，雨势虽细却几乎全天不停，雨伞必备。路面湿滑、能见度一般，驾车请减速慢行；重阳登高建议改期或选室内活动</div>
+</div>
+
+<div class="section">
+  <div class="section-title">综合要闻<span class="en">HEADLINES</span></div>
+  <ol>
+    <li><span>人民日报头版：习近平总书记勉励乌兰察布绿色算力人才——<b>"有高远目标，更有耐心有定力"</b>，警惕新质生产力<b>无序发展、一哄而起</b>。</span></li>
+    <li><span>我国牵头研制的首个国际职业教育标准<b>《世界职业技术教育标准框架》（《北京协议》）</b>发布，<b>45个国家</b>共同签署。</span></li>
+    <li><span><b>《全国税务行政处罚裁量基准（2026年版）》</b>11月1日施行，社保欠缴首次入列，用人单位最高罚<b>三倍</b>，"自愿放弃社保协议"无效。</span></li>
+    <li><span>财政部：今年<b>1.3万亿元</b>超长期特别国债已全部发行完毕，五期第三次续发<b>200亿元</b>、票面利率<b>2.24%</b>。</span></li>
+    <li><span>证监会开出罚单：周吉锋、周吉辉操纵证券市场被罚没约<b>3.28亿元</b>，陈秋航内幕交易被罚没近<b>1.82亿元</b>。</span></li>
+    <li><span>伊朗武装部队在<b>霍尔木兹海峡</b>开火拦截"违规"船只，一艘载超<b>200万桶</b>原油的超级油轮触雷起火；巴基斯坦暂停对伊边境贸易。</span></li>
+    <li><span>特朗普签署行政令<b>豁免对俄制裁</b>大部分条款，俄方称具"历史意义"；泽连斯基称乌美最快<b>下周</b>举行新一轮会谈，警告战败或致<b>2000万</b>难民涌入欧洲。</span></li>
+  </ol>
+</div>
+
+<div class="section">
+  <div class="section-title">科技互联网<span class="en">TECH</span></div>
+  <ol>
+    <li><span><b>苹果AI入华定局</b>：库克确认Apple Intelligence已与<b>阿里千问</b>完成对接并获批准，十月晚些时候发测试版，Siri AI暂不上线。</span></li>
+    <li><span>DeepSeek开源<b>DeepSeek-V4.1-Flash-1017</b>（MIT协议、FP8），同时开放自研<b>Search/Fetch API</b>，日处理请求达数亿级。</span></li>
+    <li><span>台积电Q3净利<b>7631亿新台币</b>同比大增<b>68.7%</b>，营收1.49万亿，连续第六季创纪录，但对2027年转趋谨慎。</span></li>
+    <li><span>Meta发布开源权重模型<b>Muse Spark Open</b>，<b>420亿</b>激活参数，主打在Mac与Mac Studio上本地运行的编程与视频剪辑任务。</span></li>
+    <li><span>监管收紧：美国<b>FTC</b>向OpenAI、Anthropic发出传票调查AI安全事件，至少<b>8个州</b>起诉OpenAI称ChatGPT危害儿童。</span></li>
+    <li><span>苹果收紧<b>App Store</b>规则严打AI换脸裸照与深度伪造内容，违规应用将被下架；AI智能体遭Yelp、达美航空等大站<b>集体封禁</b>。</span></li>
+    <li><span>第<b>140届广交会</b>线下展进行中，集中展出<b>23.5万件</b>人工智能产品，超<b>2万家</b>企业应用工业互联网与AI新技术。</span></li>
+  </ol>
+</div>
+
+<div class="section">
+  <div class="section-title">文体 · 生活<span class="en">LIFESTYLE</span></div>
+  <ol>
+    <li><span>今日<b>重阳节</b>（农历九月初九）。河南卫视"中国节日"系列收官之作<b>《2026重阳奇妙游》</b>开播，戴建业主讲、马嘉祺献唱《节气颂》。</span></li>
+    <li><span>今日赛事直播密集：CCTV5直播<b>ATP1000上海大师赛决赛</b>（16:30），18:30直播<b>武汉网球公开赛</b>女单决赛，另有英超曼联等。</span></li>
+    <li><span>别克LPGA锦标赛决赛轮今上演：上海小囡<b>殷若宁</b>三轮<b>-7杆</b>升至第三，仅落后领先者崔慧珍<b>2杆</b>，家门口冲冠。</span></li>
+    <li><span><b>环广西公路自行车世巡赛</b>今日收官：宜州至马山弄拉赛段，唯一一级爬坡点长<b>3.1公里</b>、平均坡度<b>6.2%</b>，终点前最大坡度超20%。</span></li>
+    <li><span>世界超级摩托车锦标赛收官战首回合，中国<b>"张雪机车"</b>法国车手德比斯获第10名，提前锁定赛季<b>年度亚军</b>。</span></li>
+    <li><span>三人篮球澳门大师赛：中国<b>上海队、德清队</b>及中国澳门战狼联队携手晋级八强，今日决出冠军，总奖金<b>18.5万美元</b>。</span></li>
+    <li><span>周六大盘<b>7970万</b>：《生化危机：爆发夜》2900万达成<b>13连冠</b>累计3.54亿；《神探之痕迹》累计5.52亿；10月累计票房16.48亿，为<b>2014年以来最差</b>。</span></li>
+  </ol>
+</div>
+
+<div class="quote">
+  <div class="tag">每 日 微 语</div>
+  <p>九九重阳，宜登高，也宜回头看看身后的人。<br>愿你奔赴的山海有回响，心里挂念的长辈正安康——趁秋光正好，打个电话回家，别让思念只在节日抵达。</p>
+</div>
+
+<div class="footer">每天一分钟 · 知晓天下事<br>本简报由 AI 自动采集编辑 · 转发请随意</div>
+
+</body>
+</html>
