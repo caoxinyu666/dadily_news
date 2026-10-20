@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>新闻早报 · 2026年10月21日</title>
+</head>
+<body style="margin:0;padding:0;">
+
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+    background: #f7f4ef;
+    color: #2c3e50 !important;
+    max-width: 480px;
+    margin: 0 auto;
+    padding: 16px 14px 32px;
+    line-height: 1.75;
+  }
+  p, span, div, li, b { color: inherit; }
+  .header {
+    background: linear-gradient(135deg, #c0392b, #96281b);
+    border-radius: 12px 12px 0 0;
+    padding: 24px 20px 18px;
+    color: #ffffff !important;
+    text-align: center;
+  }
+  .header * { color: #ffffff !important; }
+  .header .paper { font-size: 12px; letter-spacing: 4px; opacity: .85; margin-bottom: 6px; }
+  .header h1 { font-size: 26px; letter-spacing: 6px; font-weight: 700; }
+  .header .date { margin-top: 10px; font-size: 13px; opacity: .9; }
+  .header .date span { margin: 0 6px; color: #ffffff !important; }
+  .solar-term {
+    background: rgba(255,255,255,.15);
+    display: inline-block;
+    padding: 2px 14px;
+    border-radius: 20px;
+    margin-top: 10px;
+    font-size: 12px;
+    color: #ffffff !important;
+  }
+  .weather {
+    background: linear-gradient(135deg, #4a90d9, #2c5f8a);
+    border-radius: 12px;
+    padding: 16px 18px;
+    color: #ffffff !important;
+    margin-top: 14px;
+    box-shadow: 0 2px 8px rgba(0,0,0,.06);
+  }
+  .weather * { color: #ffffff !important; }
+  .weather-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+    opacity: .95;
+  }
+  .weather-main {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin: 10px 0 12px;
+  }
+  .weather-icon { font-size: 40px; line-height: 1; }
+  .weather-temp { font-size: 32px; font-weight: 700; }
+  .weather-temp span { font-size: 15px; font-weight: 400; margin-left: 2px; }
+  .weather-desc { font-size: 15px; margin-top: 2px; }
+  .weather-grid {
+    display: flex;
+    background: rgba(255,255,255,.12);
+    border-radius: 8px;
+    padding: 8px 0;
+  }
+  .w-item { flex: 1; text-align: center; }
+  .w-item b { display: block; font-size: 15px; }
+  .w-item span { font-size: 11px; opacity: .8; }
+  .weather-tip {
+    margin-top: 10px;
+    font-size: 13px;
+    background: rgba(255,255,255,.12);
+    border-radius: 8px;
+    padding: 7px 10px;
+  }
+  .section {
+    background: #ffffff;
+    border-radius: 0 0 12px 12px;
+    padding: 18px 18px 8px;
+    margin-bottom: 14px;
+    box-shadow: 0 2px 8px rgba(0,0,0,.04);
+  }
+  .section:first-of-type { border-radius: 12px; margin-top: 14px; }
+  .section-title {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 17px;
+    font-weight: 700;
+    color: #c0392b !important;
+    padding-bottom: 10px;
+    border-bottom: 1px dashed #e8d5d0;
+    margin-bottom: 12px;
+  }
+  .section-title::before {
+    content: "";
+    width: 4px; height: 18px;
+    background: #c0392b;
+    border-radius: 2px;
+  }
+  .section-title .en { font-size: 11px; color: #999999 !important; font-weight: 400; margin-left: auto; letter-spacing: 1px; }
+  ol { list-style: none; counter-reset: item; }
+  ol li {
+    counter-increment: item;
+    display: flex;
+    gap: 10px;
+    padding: 7px 0;
+    font-size: 15px;
+    border-bottom: 1px solid #f4f0ea;
+    color: #2c3e50 !important;
+  }
+  ol li:last-child { border-bottom: none; }
+  ol li::before {
+    content: counter(item, decimal-leading-zero);
+    flex: none;
+    width: 24px; height: 24px;
+    background: #f7f4ef;
+    color: #c0392b !important;
+    border: 1px solid #e8d5d0;
+    border-radius: 50%;
+    font-size: 11px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4px;
+    font-weight: 600;
+  }
+  ol li span { color: #2c3e50 !important; }
+  ol li b { font-weight: 600; color: #1a1a1a !important; }
+  .quote {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 16px 18px;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,.04);
+  }
+  .quote .tag { font-size: 12px; color: #e67e22 !important; letter-spacing: 3px; margin-bottom: 6px; }
+  .quote p { font-size: 15px; color: #2c3e50 !important; }
+  .footer {
+    text-align: center;
+    font-size: 11px;
+    color: #8a8a8a !important;
+    margin-top: 18px;
+  }
+</style>
+
+<div class="header">
+  <div class="paper">NEWS MORNING POST</div>
+  <h1>新闻早报</h1>
+  <div class="date">2026年10月21日<span>|</span>星期三<span>|</span>农历九月十二</div>
+  <div class="solar-term">寒露时节 · 霜降至，秋深露重</div>
+</div>
+
+<div class="weather">
+  <div class="weather-head"><span>今日天气</span><span>重庆 · 两江新区</span></div>
+  <div class="weather-main">
+    <div class="weather-icon">🌧</div>
+    <div>
+      <div class="weather-temp">18~24<span>°C</span></div>
+      <div class="weather-desc">小雨 · 降水概率较高</div>
+    </div>
+  </div>
+  <div class="weather-grid">
+    <div class="w-item"><b>71%</b><span>降水概率</span></div>
+    <div class="w-item"><b>弱</b><span>紫外线</span></div>
+    <div class="w-item"><b>18~24</b><span>气温°C</span></div>
+    <div class="w-item"><b>19</b><span>现温°C</span></div>
+  </div>
+  <div class="weather-tip">👔 阴雨绵绵、路面湿滑，建议长袖加薄外套，出门务必带伞，行车减速慢行</div>
+</div>
+
+<div class="section">
+  <div class="section-title">综合要闻<span class="en">HEADLINES</span></div>
+  <ol>
+    <li><span>新央企<b>国家数据集团</b>在河北<b>雄安新区</b>成立，主责主业为数据资源开发利用与数据要素价值释放。</span></li>
+    <li><span>美"<b>查尔斯顿</b>"号濒海战斗舰擅闯中国南沙<b>仙宾礁</b>附近海域，南部战区海军依法跟踪监视。</span></li>
+    <li><span>商务部回应美方禁止采购使用 <b>DeepSeek</b>：强烈不满、坚决反对，敦促美方立即纠正错误做法。</span></li>
+    <li><span>三季度全国<b>1.92亿人次</b>出入境，同比上升<b>7.9%</b>，免签入境外国人达899.2万人次。</span></li>
+    <li><span>国家发改委发布首批<b>136项</b>标志性重大应用场景项目，为新技术新业态提供验证空间。</span></li>
+    <li><span>教育部等三部门联合印发通知，部署科学防控儿童青少年<b>高度近视</b>。</span></li>
+    <li><span>美总统特使威特科夫将于<b>21日</b>会晤普京；泽连斯基赴挪威与美特使会谈，美乌关系趋紧。</span></li>
+  </ol>
+</div>
+
+<div class="section">
+  <div class="section-title">科技互联网<span class="en">TECH</span></div>
+  <ol>
+    <li><span><b>DeepSeek</b> 宣布内部推理框架 <b>DeepInfer</b> 全面开源，助力降低大规模推理算力成本与能耗。</span></li>
+    <li><span><b>英伟达</b>用<b>8192块GH200 GPU</b>完成<b>104量子比特</b>容错模拟，魔态制备物理比特数可降约<b>90%</b>。</span></li>
+    <li><span>工信部：<b>正研究起草新一代智能制造政策措施</b>，加快人工智能与制造业深度融合。</span></li>
+    <li><span><b>Anthropic</b> 被曝开发新模型，可在用户指令含糊时主动推断真实意图，强化推理与创造性解题。</span></li>
+    <li><span>亚马逊推出开源工具 <b>TorchNeuron</b>，PyTorch 应用改一项配置即可迁移至自研 Trainium 芯片。</span></li>
+    <li><span>国产卫星互联网首次实现<b>北极、南极、青藏高原</b>联网通信。</span></li>
+    <li><span>AI 硬件密集上新：阿里千问发布 <b>AI 眼镜</b>，阶跃星辰推出智能体手机 <b>STEPX Neo</b>。</span></li>
+  </ol>
+</div>
+
+<div class="section">
+  <div class="section-title">文体 · 生活<span class="en">LIFESTYLE</span></div>
+  <ol>
+    <li><span>第<b>39届</b>中国电影金鸡奖提名名单公布，2026年金鸡百花电影节<b>11月6日至10日</b>在厦门举办。</span></li>
+    <li><span>CBA第2轮：北控主场 <b>92:105</b> 不敌卫冕冠军上海；北京首钢今晚首个主场迎战广东。</span></li>
+    <li><span>2026全国游泳锦标赛（25米）<b>23日至28日</b>在水立方举行，预计<b>500余名</b>运动员参赛。</span></li>
+    <li><span>本周日 <b>2026北京昌平马拉松</b>鸣枪，为昌平区首届全马；房山良乡大学城半马同日开跑。</span></li>
+    <li><span>国家电影局、体育总局联合启动"<b>跟着电影去运动</b>"行动，推动电影与体育双向赋能。</span></li>
+    <li><span>举重选手<b>崔哲</b>夺得爱知·名古屋亚残运会中国代表团<b>首金</b>。</span></li>
+    <li><span>总台"<b>智竞未来</b>"首届智能机器人应用技能大展南京站活动举行。</span></li>
+  </ol>
+</div>
+
+<div class="quote">
+  <div class="tag">每 日 微 语</div>
+  <p>寒露将尽，霜降将至，秋深露重。<br>命运的走向从来不是等出来的——试着向前一步，保持主动，用心奔赴属于自己的人生。</p>
+</div>
+
+<div class="footer">每天一分钟 · 知晓天下事<br>本简报由 AI 自动采集编辑 · 转发请随意</div>
+
+</body>
+</html>
